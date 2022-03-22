@@ -1,0 +1,43 @@
+@import "_values.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.-flex {
+	display: flex;
+}
+.-flex-col {
+	flex-direction: column;
+}
+.-center {
+	justify-content: center;
+	align-items: center;
+}
+.-just-center {
+	justify-content: center;
+}
+.-align-stretch {
+	align-items: stretch;
+}
+.-align-center {
+	align-items: center;
+}
+.-just-between {
+	justify-content: space-between;
+}
+.-relative {
+	position: relative;
+}
+.-absolute {
+	position: absolute;
+}
+.-hidden {
+	display: none;
+}
